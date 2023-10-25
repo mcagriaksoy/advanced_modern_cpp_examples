@@ -76,14 +76,14 @@ Use a suitable standard algorithm with a lambda expression as predicate.
 
 Display the elements of the vector after sorting them. Check that your program still compiles and runs correctly.
 
-## 5- [Addiational Example from Hackerrank] Adding Shapes Example
+## 5- [Addiational Example 1 from Hackerrank] Adding Shapes Example
 
 Implement 3 classes: Shapes, Circle, and Square. Class Circle contains a public variable radius. Class Square contains a public variable side. Class Shapes holds multiple circles and squares. It includes: - set<int> circles radius: the radii of the circles it holds - set<int> squares side: the sides of the squares it holds
 Overload the addition operator on class Shapes, where adding any objects of the Square or Circles classes results in a new object of class Shapes with all the shapes data included. Please refer to the example.
 
 ![Alt text](image.png)
 
-## 6- [Addiational Example from Hackerrank] Single Instance
+## 6- [Addiational Example 2 from Hackerrank] Single Instance
 
 Implement a class Singlelnstance, which contains an integer variable value with a getter and setter for the same. It should have the property that prevents the creation of more than 1 instance of the class at any time. Another instance can be created when the previous one is deleted. If an attempt is made to create a second instance, it class should throw an exception with the message "Couldn't create more than 1 instance of SingleInstance".
 Note - The getter and setter should have the names getValue and setValue, respectively. If there is an attempt to create a copy of the instance via the copy constructor, the class should throw the same exception.
@@ -91,3 +91,9 @@ For Example, value = 2,
 SingleInstance \*instance1 = new SingleInstance();
 instancel->setValue(2);
 fout << instancel->getValue() << "\n";
+
+## 7- [Addiational Example 3 from Hackerrank] Matrix Sum
+
+A function that reads matrices from input and prints their sum.
+
+## 8- [Addiational Example 4 from Hackerrank] Calculate the minimum and maximum sums of a vector of integers.

@@ -14,6 +14,11 @@ struct language
     int date;
 };
 
+/**
+ * @brief Reads a file named "languages.txt" and parses its content to create a vector of language objects.
+ *
+ * @return int Returns 0 on successful execution.
+ */
 int main()
 {
     ifstream file{"languages.txt"};

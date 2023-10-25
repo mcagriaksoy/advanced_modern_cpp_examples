@@ -3,6 +3,11 @@
 #include <iostream>
 #include <string>
 
+/**
+ * Replaces all punctuation marks in the given string with exclamation marks.
+ *
+ * @param str The string to modify.
+ */
 namespace std
 {
     void exclaim(string &str)

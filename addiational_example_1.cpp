@@ -37,6 +37,17 @@ public:
     }
 };
 
+/**
+ * @brief This program demonstrates the usage of operator overloading in C++.
+ *
+ * The program defines a class named Shapes which has two member variables: radius and side.
+ * The class also has two member functions: circles_radius() and squares_side().
+ * The program creates two objects of the Shapes class and sets their member variables.
+ * Then, it adds the two objects using the overloaded '+' operator and stores the result in a third object.
+ * Finally, it prints the member variables of all three objects.
+ *
+ * @return int
+ */
 int main()
 {
 

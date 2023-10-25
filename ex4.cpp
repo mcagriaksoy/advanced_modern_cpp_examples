@@ -6,6 +6,11 @@
 
 using namespace std;
 
+/**
+ * Sorts and prints the given vector of integers in ascending order.
+ *
+ * @param numbers The vector of integers to be sorted and printed.
+ */
 void sort_and_print_vector(vector<int> numbers)
 {
     sort(begin(numbers), end(numbers), [](int x, int y)
