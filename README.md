@@ -101,6 +101,26 @@ Only add a URL object if the URL is not already in the history. If the URL is al
 
 Write a program to test your class. Check that your program compiles and runs correctly.
 
+## 7- Maps
+
+You will write a program that:
+
+Reads words entered by the user stores the value and length of each word in a suitable std::pair stores the pair object in a container
+
+Prints out all the elements of the container
+
+Implement this program, using std::vector to store the pair objects.
+
+What do you notice about the output?
+
+Implement this program, using std::map to store the pair objects.
+
+What do you notice about the output?
+
+Explain your results.
+
+Run your programs again, but this time enter some duplicate words.
+
 ## [Addiational Example 1 from Hackerrank] Adding Shapes Example
 
 Implement 3 classes: Shapes, Circle, and Square. Class Circle contains a public variable radius. Class Square contains a public variable side. Class Shapes holds multiple circles and squares. It includes: - set<int> circles radius: the radii of the circles it holds - set<int> squares side: the sides of the squares it holds
