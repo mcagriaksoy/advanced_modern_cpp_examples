@@ -1,5 +1,8 @@
+// Mehmet Cagri Aksoy
 
+#include <deque>
 #include <iostream>
+#include <list>
 #include <string>
 #include <vector>
 
@@ -7,22 +10,37 @@ using namespace std;
 
 int main()
 {
-    int t;
-    cin >> t;
+    vector<string> vec_s;
+    list<string> list_s;
+    deque<string> deque_s;
 
-    vector<std::string> usernames;
-    for (int i = 0; i < t; i++)
+    cout << "Enter a string: ";
+    int count = 0;
+    for (string word; cin >> word && count < 5; ++count)
     {
-        string u;
-        try
-        {
-            cin >> u;
-        }
-        catch (BadLengthException e)
-        {
-            cout << "Exception: " << e.what() << endl;
-        }
-        usernames.push_back(u);
-        cout << u << endl;
+        vec_s.push_back(word);
+        list_s.push_back(word);
+        deque_s.push_front(word);
     }
+
+    cout << "Vector: " << endl;
+    for (auto &i : vec_s)
+    {
+        cout << i << " ";
+    }
+    cout << endl;
+
+    cout << "List: " << endl;
+    for (auto &i : list_s)
+    {
+        cout << i << " ";
+    }
+    cout << endl;
+
+    cout << "Deque: " << endl;
+    for (auto &i : deque_s)
+    {
+        cout << i << " ";
+    }
+    cout << endl;
 }
