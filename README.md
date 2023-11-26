@@ -121,6 +121,36 @@ Explain your results.
 
 Run your programs again, but this time enter some duplicate words.
 
+## 8- Virtual Function
+
+Write an inheritance hierarchy with three classes: Base, Child and Grandchild. Do not define any constructors or data members for these classes.
+
+Child inherits from Base and Grandchild inherits from Child.
+
+Give each class a print() member function which prints out the name of the class
+
+Write a print_class() function which takes a Base argument by value
+
+Create an object of each class and pass it to a call to print_class()
+
+Implement the program as described. Explain your results.
+
+Change the print() member function to be virtual.
+
+Run the program again and explain your results.
+
+Change print_function() so that its argument is passed by reference.
+
+Run the program again and explain your results.
+
+Add an integer member to the Base class. Give the Base class a constructor which initializes this member from its argument.
+
+Change the program so that the Base, Child and Grandchild objects are created using this argument.
+
+Why does the program not compile?
+
+What is the best way to solve this problem?
+
 ## [Addiational Example 1 from Hackerrank] Adding Shapes Example
 
 Implement 3 classes: Shapes, Circle, and Square. Class Circle contains a public variable radius. Class Square contains a public variable side. Class Shapes holds multiple circles and squares. It includes: - set<int> circles radius: the radii of the circles it holds - set<int> squares side: the sides of the squares it holds
@@ -142,3 +172,8 @@ fout << instancel->getValue() << "\n";
 A function that reads matrices from input and prints their sum.
 
 ## [Addiational Example 4 from Hackerrank] Calculate the minimum and maximum sums of a vector of integers.
+
+## [A Question from InterviewBit] Find majority element
+
+Given an array of size N, find the majority element. The majority element is the element that appears more than floor(N/2) times.
+You may assume that the array is non - empty and the majority element always exist in the array.
